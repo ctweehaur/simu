@@ -66,17 +66,19 @@
 </head>
 <body>
  
-<div class="header-section" style="text-align: center !important; margin-bottom: 30px !important;">
-    <h1 class="title" style="font-family: 'Noto Serif SC', 'SimSun', serif !important; font-size: 2.5rem !important; font-weight: bold !important; color: #0f172a !important; margin-bottom: 12px !important; letter-spacing: 2px !important;">思母</h1>
-    
-    <div class="author-wrapper" style="display: flex !important; align-items: center !important; justify-content: center !important; gap: 15px !important; max-width: 600px !important; margin: 0 auto !important;">
-        <div style="flex: 1 !important; height: 1px !important; background: linear-gradient(to left, #cbd5e1, transparent) !important;"></div>
-        <p class="author" style="font-size: 0.95rem !important; color: #64748b !important; margin: 0 !important; white-space: nowrap !important; font-family: system-ui, -apple-system, sans-serif !important; letter-spacing: 0.5px !important;">
-            与恭（南宋）/ Yu Gong (Southern Song Dynasty)
-        </p>
-        <div style="flex: 1 !important; height: 1px !important; background: linear-gradient(to right, #cbd5e1, transparent) !important;"></div>
+<div class="app-container">   <!-- ⚠️ 这行必须加上！ -->
+
+    <div class="header-section" style="text-align: center !important; margin-bottom: 30px !important;">
+        <h1 class="title" style="font-family: 'Noto Serif SC', 'SimSun', serif !important; font-size: 2.5rem !important; font-weight: bold !important; color: #0f172a !important; margin-bottom: 12px !important; letter-spacing: 2px !important;">思母</h1>
+        
+        <div class="author-wrapper" style="display: flex !important; align-items: center !important; justify-content: center !important; gap: 15px !important; max-width: 600px !important; margin: 0 auto !important;">
+            <div style="flex: 1 !important; height: 1px !important; background: linear-gradient(to left, #cbd5e1, transparent) !important;"></div>
+            <p class="author" style="font-size: 0.95rem !important; color: #64748b !important; margin: 0 !important; white-space: nowrap !important; font-family: system-ui, -apple-system, sans-serif !important; letter-spacing: 0.5px !important;">
+                与恭（南宋）/ Yu Gong (Southern Song Dynasty)
+            </p>
+            <div style="flex: 1 !important; height: 1px !important; background: linear-gradient(to right, #cbd5e1, transparent) !important;"></div>
+        </div>
     </div>
-</div>
     
     <!-- 韵文展示 -->
     <div class="poem-container">
@@ -108,7 +110,8 @@
     <div class="collapsible-content" id="analysis-content"></div>
     <div class="collapsible-content" id="quiz-content"><div id="quiz-dynamic-container"></div></div>
     <div class="collapsible-content" id="shortq-content"></div>
-</div>
+
+</div>   <!-- ⚠️ 这行必须加上！闭合 app-container -->
  
 <!-- 悬浮词解弹窗 -->
 <div class="floating-tooltip" id="tooltip">
