@@ -29,7 +29,7 @@ const poemData = [
     { text: "曾", py: "céng", zh: "曾经、过去。", en: "once / in the past" },
     { text: "典", py: "diǎn", zh: "典当、抵押。", en: "to pawn / to mortgage", exam: true },
     { text: "袈裟", py: "jiā shā", zh: "僧人的法衣。诗人是出家人。", en: "monk's robe / kasaya", exam: true },
-    { text: "籴", py: "dí", zh: "买入粮食，与"粜"（卖出）相对。", en: "to buy grain", exam: true },
+    { text: "籴", py: "dí", zh: "买入粮食，与“粜”（卖出）相对。", en: "to buy grain", exam: true },
     { text: "米", py: "mǐ", zh: "粮食、米粮。", en: "rice / grain" },
     { text: "归", py: "guī", zh: "归来、回来。", en: "to return" },
     { text: "。", punc: true }
